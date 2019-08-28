@@ -1,4 +1,4 @@
-package com.studerw.activiti.model;
+package com.lo.pckg.activiti.model;
 
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -9,9 +9,7 @@ import com.lo.pckg.activiti.model.document.DocType;
 
 import static org.junit.Assert.fail;
 
-/**
- * @author William Studer
- */
+
 public class DocTypeTest {
     private static final Logger LOG = LoggerFactory.getLogger(DocTypeTest.class);
 

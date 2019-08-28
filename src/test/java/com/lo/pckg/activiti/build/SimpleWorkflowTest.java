@@ -1,4 +1,4 @@
-package com.studerw.activiti.build;
+package com.lo.pckg.activiti.build;
 
 import org.activiti.bpmn.BpmnAutoLayout;
 import org.activiti.bpmn.model.*;
@@ -26,10 +26,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author William Studer
- * Date: 5/25/14
- */
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:spring/testAppContext.xml"})
 public class SimpleWorkflowTest {

@@ -1,4 +1,4 @@
-package com.studerw.activiti;
+package com.lo.pckg.activiti;
 
 import com.google.common.collect.Maps;
 import com.lo.pckg.activiti.model.UserForm;

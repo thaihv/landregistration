@@ -1,4 +1,4 @@
-package com.studerw.activiti.workflow;
+package com.lo.pckg.activiti.workflow;
 
 import com.lo.pckg.activiti.document.DocumentService;
 import com.lo.pckg.activiti.model.document.DocType;

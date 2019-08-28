@@ -1,4 +1,4 @@
-package com.studerw.activiti.model;
+package com.lo.pckg.activiti.model;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -20,9 +20,6 @@ import java.util.Map;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
-/**
- * @author William Studer
- */
 public class JsonTest {
     private static final Logger LOG = LoggerFactory.getLogger(JsonTest.class);
     public final static ObjectMapper objectMapper = new ObjectMapper();

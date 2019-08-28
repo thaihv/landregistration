@@ -1,4 +1,4 @@
-package com.studerw.activiti;
+package com.lo.pckg.activiti;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
@@ -34,10 +34,6 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-/**
- * @author William Studer
- *         Date: 5/25/14
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:spring/testAppContext.xml"})
 public class BookReportTest {

@@ -1,4 +1,4 @@
-package com.studerw.activiti.model;
+package com.lo.pckg.activiti.model;
 
 import com.lo.pckg.activiti.model.document.BookReport;
 import com.lo.pckg.activiti.model.document.Invoice;
@@ -21,9 +21,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-/**
- * @author William Studer
- */
+
 public class ValidatorTest {
     private static final Logger LOG = LoggerFactory.getLogger(ValidatorTest.class);
     ValidatorFactory factory = Validation.buildDefaultValidatorFactory();

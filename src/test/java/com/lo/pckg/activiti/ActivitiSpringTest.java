@@ -1,4 +1,4 @@
-package com.studerw.activiti;
+package com.lo.pckg.activiti;
 
 import org.activiti.engine.HistoryService;
 import org.activiti.engine.IdentityService;

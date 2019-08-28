@@ -1,6 +1,6 @@
 <div id="footer">
     <div class="container">
-        <p class="text-muted text-center" style="text-transform: capitalize">Activiti Example 2015 - William Studer (${jdbcType})</p>
+        <p class="text-muted text-center" style="text-transform: capitalize">Activiti 5.22 Example with Database ${jdbcType}</p>
     </div>
 </div>
 <script src="${pageContext.request.contextPath}/resources/js/console.js"></script>

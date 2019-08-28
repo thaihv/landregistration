@@ -1,4 +1,4 @@
-package com.studerw.activiti.build;
+package com.lo.pckg.activiti.build;
 
 import com.google.common.collect.Lists;
 import com.lo.pckg.activiti.model.document.DocType;
@@ -33,10 +33,6 @@ import java.util.Random;
 
 import static org.junit.Assert.*;
 
-/**
- * @author William Studer
- *         Date: 5/25/14
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:spring/testAppContext.xml"})
 public class WorkflowBuilderTest {
