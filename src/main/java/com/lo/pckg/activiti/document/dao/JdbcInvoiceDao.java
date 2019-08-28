@@ -54,7 +54,7 @@ public class JdbcInvoiceDao implements InvoiceDao {
     public int getCount() {
         String sql = "SELECT count(*) FROM INVOICE";
         @SuppressWarnings("unchecked")
-        int count = this.namedJdbcTemplate.queryForObject(sql, Collections.EMPTY_MAP, Integer.class);
+        int count = (int) this.namedJdbcTemplate.queryForObject(sql, Collections.EMPTY_MAP, Integer.class);
         LOG.debug("Got count: {} of invoices", count);
         return count;
     }

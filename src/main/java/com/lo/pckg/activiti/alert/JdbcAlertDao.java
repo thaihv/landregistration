@@ -82,7 +82,7 @@ public class JdbcAlertDao implements AlertDao {
     public int getCount() {
         String sql = "SELECT count(*) FROM Alert";
         @SuppressWarnings("unchecked")
-        int count = this.namedJdbcTemplate.queryForObject(sql, Collections.EMPTY_MAP, Integer.class);
+        int count = (int) this.namedJdbcTemplate.queryForObject(sql, Collections.EMPTY_MAP, Integer.class);
         LOG.debug("Got count: {} of Alerts", count);
         return count;
     }

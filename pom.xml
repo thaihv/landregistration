@@ -2,13 +2,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lo.pckg.vietlis2</groupId>
-    <artifactId>registration</artifactId>
+    <artifactId>activitibpm-spring</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>vietlis2-registration</name>
+    <name>activitibpm</name>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.1.7.RELEASE</spring.version>
         <activiti-version>5.22.0</activiti-version>
         <jackson.version>2.4.3</jackson.version>
@@ -279,15 +281,15 @@
     </dependencies>
 
     <build>
-        <finalName>vietlis2-registration</finalName>
+        <finalName>activitibpm-spring</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
 
@@ -308,7 +310,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <path>/vietlis2-registration</path>
+                    <path>/landregistration</path>
                     <port>9090</port>
                     <useTestClasspath>false</useTestClasspath>
                     <contextReloadable>false</contextReloadable>
@@ -328,7 +330,7 @@
                         <filename>${project.build.finalName}.${project.packaging}</filename>
                         <hostname>127.0.0.1</hostname>
                         <port>9999</port>
-                        <name>vietlis2-registration.war</name>
+                        <name>activitibpm-spring.war</name>
                         <username>root</username>
                         <password>password</password>
                     </configuration>

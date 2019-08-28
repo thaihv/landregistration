@@ -51,7 +51,7 @@ public class JdbcBookReportDao implements BookReportDao {
     public int getCount() {
         String sql = "SELECT count(*) FROM BOOK_REPORT";
         @SuppressWarnings("unchecked")
-        int count = this.namedJdbcTemplate.queryForObject(sql, Collections.EMPTY_MAP, Integer.class);
+        int count = (int) this.namedJdbcTemplate.queryForObject(sql, Collections.EMPTY_MAP, Integer.class);
         LOG.debug("Got count: {} of book reports", count);
         return count;
     }
