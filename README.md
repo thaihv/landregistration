@@ -1,5 +1,5 @@
-Using activiti with vietlis land registration boilerplate code
-* Prerequisites as locally tested
+Using activiti with vietlis landregistration project boilerplate code
+A. Prerequisites (locally tested)
 - Spring MVC 4.1.7
 - Activiti 5.22.0
 - Jdk 1.8.0_191
